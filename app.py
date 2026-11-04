@@ -7,8 +7,8 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "status": "success",
-        "message": "DevOps Cloud App is Running!",
-        "version": "1.0.0"
+        "message": "DevOps Cloud App v2.0 - Auto-deployed successfully via GitHub Actions!",
+        "version": "2.0.0"
     })
 
 @app.route("/health")
