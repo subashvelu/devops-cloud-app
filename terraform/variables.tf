@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region for resources"
+  description = "AWS region for resources (ap-south-1 = Mumbai)"
   type        = string
   default     = "ap-south-1"
 }
@@ -14,4 +14,10 @@ variable "instance_type" {
   description = "EC2 instance size"
   type        = string
   default     = "t3.micro"
+}
+
+variable "environment" {
+  description = "Environment tag (dev, staging, production)"
+  type        = string
+  default     = "dev"
 }

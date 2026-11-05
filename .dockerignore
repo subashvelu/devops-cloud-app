@@ -1,5 +1,11 @@
+.git
+.github
+terraform
 __pycache__
 *.pyc
-*.pyo
-.git
 .pytest_cache
+venv
+.env
+test_app.py
+requirements-dev.txt
+*.md
